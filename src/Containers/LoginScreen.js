@@ -21,7 +21,7 @@ class LoginScreen extends React.Component {
     attemptLogin: PropTypes.func
   }
   static navigationOptions = {
-    headerTitle: 'Move',
+    headerMode: 'none',
   }
 
   isAttempting = false
@@ -100,7 +100,7 @@ class LoginScreen extends React.Component {
     const textInputStyle = editable ? styles.textInput : styles.textInputReadonly
     return (
       <ScrollView contentContainerStyle={{justifyContent: 'center'}} style={[styles.container, {height: this.state.visibleHeight}]} keyboardShouldPersistTaps='always'>
-        {/* <Image source={Images.inlogo} style={[styles.topLogo, this.state.topLogo]} /> */}
+        <Image source={Images.movelogo} style={[styles.topLogo, this.state.topLogo]} />
         <View style={styles.form}>
           <View style={styles.row}>
             <Text style={styles.rowLabel}>Email</Text>

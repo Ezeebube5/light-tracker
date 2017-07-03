@@ -14,7 +14,7 @@ export const PrimaryNav = StackNavigator({
   NotLoggedInStack: { screen: NotLoggedInStackNavigator },
 }, {
   // Default config for all screens
-  headerMode: 'float',
+  headerMode: 'none',
   navigationOptions: {
     headerStyle: styles.header,
   },

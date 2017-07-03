@@ -12,7 +12,7 @@ class LoadingScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image source={Images.inlogo} style={{ alignSelf: 'center', resizeMode: 'contain' }} />
+        <Image source={Images.movelogo} style={{ alignSelf: 'center', resizeMode: 'contain' }} />
       </View>
     );
   }

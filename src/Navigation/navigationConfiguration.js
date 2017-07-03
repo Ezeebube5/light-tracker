@@ -8,10 +8,10 @@ import SettingsScreen from '../Containers/SettingsScreen';
 
 
 const routeConfiguration = {
-  TabOneNavigation: { screen: HomeScreen },
-  TabTwoNavigation: { screen: NotificationScreen },
-  TabThreeNavigation: { screen: ActivityScreen },
-  TabFourNavigation: { screen: SettingsScreen },
+  TabOneNavigation: { screen: HomeScreen, navigationOptions: { title: 'Home' } },
+  TabTwoNavigation: { screen: NotificationScreen, navigationOptions: { title: 'NotificationScreen' } },
+  TabThreeNavigation: { screen: ActivityScreen, navigationOptions: { title: 'ActivityScreen' } },
+  TabFourNavigation: { screen: SettingsScreen, navigationOptions: { title: 'Settingd' } },
 
 };
 
@@ -19,8 +19,8 @@ const tabBarConfiguration = {
   // ...other configs
 
   tabBarPosition: 'bottom',
-  swipeEnabled: false,
-  animationEnabled: false,
+//  swipeEnabled: false,
+//  animationEnabled: false,
 
 
   tabBarOptions: {

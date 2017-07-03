@@ -8,9 +8,9 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 class SettingsScreen extends React.Component {
   static navigationOptions = {
-    
+
    tabBarLabel: 'activity',
-   tabBarIcon: ({ tintColor }) => <Icon size={20} name={'film'} color={tintColor} />
+   tabBarIcon: ({ tintColor }) => <Icon size={20} name={'cog'} color={tintColor} />
 
  }
   render() {
