@@ -13,7 +13,7 @@ class ActivityScreen extends React.Component {
   static navigationOptions = {
     headerTitle: 'Activity',
    tabBarLabel: 'activity',
-   tabBarIcon: ({ tintColor }) => <Icon size={20} name={'child'} color={tintColor} />
+   tabBarIcon: ({ tintColor }) => <Icon size={30} name={'child'} color={tintColor} />
 
  }
   render() {

@@ -11,7 +11,7 @@ import styles from './Styles/LoadingScreenStyle';
 class HomeScreen extends React.Component {
   static navigationOptions = {
    tabBarLabel: 'home',
-   tabBarIcon: ({ tintColor }) => <Icon size={20} name={'home'} color={tintColor} />
+   tabBarIcon: ({ tintColor }) => <Icon size={30} name={'home'} color={tintColor} />
  }
   render() {
     return (

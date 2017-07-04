@@ -11,7 +11,7 @@ import styles from './Styles/LoadingScreenStyle';
 class NotificationScreen extends React.Component {
   static navigationOptions = {
    tabBarLabel: 'notification',
-   tabBarIcon: ({ tintColor }) => <Icon size={20} name={'send'} color={tintColor} />
+   tabBarIcon: ({ tintColor }) => <Icon size={30} name={'send'} color={tintColor} />
 
  }
   render() {

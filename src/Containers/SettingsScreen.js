@@ -10,7 +10,7 @@ class SettingsScreen extends React.Component {
   static navigationOptions = {
 
    tabBarLabel: 'activity',
-   tabBarIcon: ({ tintColor }) => <Icon size={20} name={'cog'} color={tintColor} />
+   tabBarIcon: ({ tintColor }) => <Icon size={30} name={'cog'} color={tintColor} />
 
  }
   render() {
