@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "apisauce": "^0.14.0",
@@ -24,7 +26,8 @@
     "redux-saga": "^0.15.4",
     "redux-thunk": "^2.2.0",
     "reduxsauce": "^0.5.0",
-    "seamless-immutable": "^7.1.2"
+    "seamless-immutable": "^7.1.2",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -61,5 +64,6 @@
   "bugs": {
     "url": "https://github.com/boxmarshall/light-tracker/issues"
   },
-  "homepage": "https://github.com/boxmarshall/light-tracker#readme"
+  "homepage": "https://github.com/boxmarshall/light-tracker#readme",
+  "snyk": true
 }
